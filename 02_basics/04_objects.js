@@ -65,6 +65,33 @@ const obj6 =new Object({...obj1, ...obj2})
 console.log(obj6.hasOwnProperty('name'));
 tindrUser.hasOwnProperty()
 
+// video 18
+// SUMMARRY :
+
+// 1. To extract value from object => const {keyname} = object name;
+// 2. To rename keyname for using more times => const {keyname: new name } = object name;
+// 3. JSON is a collection of key-value pairs just like object and a JSON array is an ordered list of value.
+
+const course = {
+  courseName: "js tutorial",
+  price: "999",
+  courseInstructor: "hitesh"
+}
+
+const {courseInstructor} =course
+console.log(courseInstructor);
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+//Json object
+// }
+//   "name": "hitesh",
+//   "coursename": "js in hindi",
+//   "price": "free"
+// }
+
+
+
 
 
 

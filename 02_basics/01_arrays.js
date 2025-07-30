@@ -1,9 +1,19 @@
 const myArr = [0, 1, 2, 3, 4, 5];
 const newArr = new Array('app', 'web', 'browser');
 const {0 : a, 1 : b, ...rem} = myArr
+const [p, l, ...remain] = myArr
+console.log(p);
+console.log(l);
+console.log(remain);
+console.log(typeof rem);
+console.log(typeof remain);
+
+
+
+
 // console.log(a);
 // console.log(b);
-// console.log(rem);
+console.log(rem);
 
 // console.log(myArr==secArr)
 

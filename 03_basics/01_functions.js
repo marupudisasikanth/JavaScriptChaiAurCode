@@ -22,4 +22,28 @@ addTwoNumbers(4,'5')
 addTwoNumbers(4,null)
 console.log(3*undefined);
 
+// video 20
+function calculateCartPrice(...num1){
+    return num1
+}
+
+
+console.log(calculateCartPrice(200,300,400));
+
+function calculateCartPrice2(val1,val2,...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(200,300,400,500,600));
+
+const user = {
+username: "hitesh",
+price: 199
+}
+
+function handleObject(anyobject) {
+console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+handleObject(user)
+
 

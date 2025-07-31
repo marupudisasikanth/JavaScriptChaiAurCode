@@ -26,10 +26,36 @@ function create(){
     var d = 90
 }
 create()
-console.log(a);
+// console.log(a);
 // console.log(b);
 console.log(c);
-console.log(d);
+// console.log(d);
+
+function one(){
+    const userName = 'sas'
+
+    function two(){
+        const website ='yotube'
+        console.log(userName)
+    }
+    // console.log(website);
+    two()
+    
+}
+one()
+
+addOne(4)
+addTwo(5)
+function addOne(num){
+    return num+1
+}
+console.log(addOne(4));
+
+const addTwo = function(num){
+    return num+2;
+}
+addTwo(5)
+
 
 
 

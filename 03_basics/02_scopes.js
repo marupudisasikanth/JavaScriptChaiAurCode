@@ -31,6 +31,7 @@ create()
 console.log(c);
 // console.log(d);
 
+//https://www.youtube.com/watch?v=eWwge2YpHhc&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=22
 function one(){
     const userName = 'sas'
 
